@@ -1,8 +1,8 @@
-defmodule NervesSystemOrangePiCm4Intuitivo.MixProject do
+defmodule NervesSystemOrangePiCm5Intuitivo.MixProject do
   use Mix.Project
 
   @github_organization "intuitivo-ai"
-  @app :nerves_system_orangepi_cm4_intuitivo
+  @app :nerves_system_orangepi_cm5_intuitivo
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
@@ -76,7 +76,7 @@ defmodule NervesSystemOrangePiCm4Intuitivo.MixProject do
 
   defp description do
     """
-    Nerves System - Intuitivo IVO Orange Pi CM4
+    Nerves System - Intuitivo IVO Orange Pi CM5
     """
   end
 
